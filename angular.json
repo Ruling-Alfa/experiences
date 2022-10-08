@@ -28,7 +28,13 @@
                         ],
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "src/styles.css"
+                            "src/styles.css",
+                            {
+                                "input": "src/assets/styles/about-component.css",
+                                "bundleName": "about-component",
+                                "inject": false
+                            }
+
                         ],
                         "scripts": [
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -100,13 +106,13 @@
                     }
                 },
                 "deploy": {
-                  "builder": "angular-cli-ghpages:deploy"
+                    "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
     },
     "defaultProject": "experiences-neel",
     "cli": {
-      "analytics": "2f2c268f-7e69-4d2a-a048-2e79eeb20df4"
+        "analytics": "2f2c268f-7e69-4d2a-a048-2e79eeb20df4"
     }
 }
