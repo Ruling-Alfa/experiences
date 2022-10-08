@@ -1,0 +1,11 @@
+#Run the following command to add angular-cli-ghpages
+ng add angular-cli-ghpages
+
+
+#Deploy your project to GitHub pages with all default settings. 
+#Your project will be automatically built in production mode.
+ng deploy --base-href=/experiences/
+
+#access the site
+https://ruling-alfa.github.io/experiences/
+
