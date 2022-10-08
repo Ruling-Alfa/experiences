@@ -1,0 +1,22 @@
+<!-- <div *ngIf="blog" class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{blog.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{blog.subtitle}}</h6>
+        <p class="card-text">{{blog.shortDescription}}</p>
+        <a [href]="blog.id" class="card-link">Read More</a>
+    </div>
+</div> -->
+
+<div *ngIf="blog" class="card m-5">
+    <div class="card-header">
+        {{blog.name}}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{blog.subtitle}}</h5>
+        <p class="card-text">{{blog.shortDescription}}</p>
+        <a [href]="blog.id" class="btn btn-dark">Read More</a>
+    </div>
+    <!-- <div class="card-footer text-muted">
+      2 days ago
+    </div> -->
+</div>
