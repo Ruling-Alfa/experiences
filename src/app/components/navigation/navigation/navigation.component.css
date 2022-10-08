@@ -1,0 +1,4 @@
+#navbarSupportedContent>ul>li.nav-item.dropdown>ul>li>a:hover,
+#navbarSupportedContent>form>input {
+    background-color: rgb(65, 48, 48);
+}
